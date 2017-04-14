@@ -2,7 +2,7 @@ body {
   font-family: open sans, helvetica, sans-serif;
   font-size: 16px;
   margin: 0;
-  background-color: #4a90e2;
+  /*background-color: #eee;*/
   line-height: 1.5;
 }
 
@@ -14,11 +14,14 @@ p {
   font-size: 18px;
   margin-top: 0;
   margin-bottom: 16px;
+  color: #666;
 }
 
 h1 {
   margin-top: 0;
-  font-weight: 500;
+  color: #4a90e2;
+  font-weight: 600;
+  font-size: 28px;
   margin-bottom: 8px;
 }
 
@@ -27,15 +30,11 @@ small {
 }
 
 article section {
-  padding: 36px 0;
+  padding: 3rem 0;
 }
 
 footer p:last-child {
   margin-bottom: 0;
-}
-
-.muted {
-  color: #666;
 }
 
 .container {
@@ -43,13 +42,13 @@ footer p:last-child {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  padding: 0 1rem;
 }
 
 .content {
-  /*align-self: center;*/
-  /*flex: 1;*/
   background-color: #fff;
-  border-radius: 8px;
-  padding: 32px;
+  border-radius: .5rem;
+  padding: 4rem;
   text-align: center;
+  border: 1px solid #ccc;
 }
